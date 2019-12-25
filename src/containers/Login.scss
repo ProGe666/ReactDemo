@@ -1,0 +1,35 @@
+.Card{
+  width:300px;
+  height:250px;
+  margin-top:50px;
+  .card-title{
+    padding: 15px 15px 0 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .card-form-control{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: center;
+  .form.submit{
+    margin-left: 35px;
+  }
+    //.MuiSnakeBarContent-root{
+    //  &.fail{
+    //  background-color: #d32f2f;
+    //}
+    //  &.success{
+    //    background-color: #43a047;
+    //  }
+    //
+    //}
+    .fail.MuiSnakeBarContent-root{
+      background-color: #d32f2f;
+    }
+    .success.MuiSnakeBarContent-root{
+      background-color: #43a047;
+    }
+  }
+}
